@@ -1,5 +1,3 @@
-# fcc_Celestial_Bodies_Database
-Solution to FCC Celestial Bodies Database
 Instructions
 For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering psql --username=freecodecamp --dbname=postgres in the terminal. Make all the tests below pass to complete the project. Be sure to get creative, and have fun!
 
@@ -58,4 +56,6 @@ At least one column from each table should be required to be UNIQUE
 
 All columns named name should be of type VARCHAR
 
-Each primary key column should follow the naming convention table_name_id. 
+Each primary key column should follow the naming convention table_name_id. For example, the moon table should have a primary key column named moon_id
+
+Each foreign key column should have the same name as the column it is referencing
